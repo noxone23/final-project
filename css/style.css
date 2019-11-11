@@ -1,0 +1,67 @@
+a {
+    color: black;
+    text-decoration: none
+}
+
+main {
+    background-color: transparent;
+}
+
+/* these are class selectors. the ones with the (.)*/
+
+.heads {
+    color: deeppink;
+    text-align: left;
+    font-family: sans-serif;
+
+}
+
+.prime-paragraphs {
+    color: whitesmoke;
+}
+
+/* id selectors */
+#first-paragraph {
+    color: yellow;
+
+}
+
+/*layout*/
+header {
+    padding-top: 50px;
+}
+
+/*navigation*/
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.main-nav ul li {
+    margin-right: 10px;
+}
+
+.main-nav ul li a {
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: darkgrey;
+    color: white;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    background-color: deeppink;
+    color: black;
+
+}
+
+/*typography*/
